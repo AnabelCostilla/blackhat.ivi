@@ -1,0 +1,75 @@
+body, a {
+  background-color: #141313;
+  text-align: center;
+  text-decoration: none;
+  color: #f4efef;
+  margin:2%;
+  margin-left:80px;
+  font-family: 'Shojumaru', cursive;
+  font-size: 18px;
+  border-radius:-50px;
+}
+
+.menuanime {
+  width: 100%;
+  padding: 0;
+  color: #ffffff;
+  margin-left:75px;
+  margin-inline-start:70px;
+}
+
+.menu__ulanime {
+  list-style: none;
+  display: flex;
+  color: #efe6e6;
+  justify-content:90px;
+  font-size: 18px;
+  margin-top:4px;
+}
+
+.li {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Shojumaru', cursive;
+}
+
+.eventos img {
+  width: 100%;
+  height: auto;
+}
+
+.descripcion {
+  width: 100%;
+  text-align: left;
+}
+
+.textoeventos, p {
+  margin: 0;
+  padding: 20px;
+}
+
+.info {
+  width: 100%;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Media Query para pantallas de hasta 900px */
+@media (max-width: 900px) {
+  body, a {
+    margin: 10px;
+    font-size: 16px;
+  }
+
+  .menu__ulanime {
+    font-size: 14px;
+  }
+
+  .eventos img {
+    margin-bottom: -10px;
+  }
+
+  .descripcion {
+    padding: 0 10px;
+  }
+}
